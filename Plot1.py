@@ -14,6 +14,6 @@ df.groupby("Shipment Mode")["Freight Cost (USD)"].mean().plot(kind="barh")
 
 plt.xlabel("Shipment Mode")
 plt.ylabel("Average Cost")
-plt.title("Price per Shipment Mode")
+plt.title("Total Cost per Shipment Mode")
 plt.tight_layout()
 plt.show()
