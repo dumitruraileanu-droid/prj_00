@@ -19,4 +19,4 @@ delayed = df[df["Delay"].dt.days > 0]
 
 print("Verspätete Sendungen:", len(delayed))
 
-delayed.to_excel("delayed.xlsx", index=False)
+#delayed.to_excel("delayed.xlsx", index=False)
