@@ -17,6 +17,6 @@ df["Delay"] = df["Delivered to Client Date"] - df["Scheduled Delivery Date"]
 # verspätet = größer 0 Tage
 delayed = df[df["Delay"].dt.days > 0]
 
-print("Verspätete Sendungen:", len(delayed))
+print(f"Verspätete Sendungen: {len(delayed)} Sendungen")
 
 #delayed.to_excel("delayed.xlsx", index=False)
