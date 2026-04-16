@@ -27,6 +27,5 @@ plt.ylabel("Total Freight Cost (USD)")
 plt.xticks(rotation=45)
 
 plt.legend(["Cost * 1.000.000"], loc="upper right")
-plt.show()
 plt.tight_layout()
 plt.show()
